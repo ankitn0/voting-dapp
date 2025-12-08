@@ -1,6 +1,27 @@
-# Voting dApp
+# Decentralized Voting dApp
 
-This repository contains a simple decentralized voting dApp: a Solidity smart contract, Hardhat tests, and a React + Tailwind frontend using Ethers.js.
+A full-stack Web3 voting application built using Solidity, Hardhat, React, Ethers.js, and OpenZeppelin.
+This dApp allows an admin (contract owner) to create polls, users to vote exactly once, and anyone to view the results on-chain.
+
+The project demonstrates real-world blockchain development with:
+
+Smart contract development (Solidity)
+Security best practices (Ownable, Pausable, ReentrancyGuard)
+Unit testing (Hardhat + Chai)
+Frontend integration (React + Tailwind + Ethers.js)
+MetaMask wallet connection
+Deployment to a testnet (e.g., Polygon Mumbai or Sepolia)
+
+# Features
+
+Owner can create a poll with a question & up to 5 options
+Users can vote only once per poll
+Owner can end the poll
+Results stored on-chain
+Secure patterns using:
+  Ownable
+  Pausable
+  ReentrancyGuard
 
 Quick structure:
 - `contracts/` - `Voting.sol` (owner creates a poll, people vote once, owner ends poll)
