@@ -99,3 +99,6 @@ npm run dev
 - Add your testnet credentials and RPC URL to `hardhat.config.js` before deploying.
 - Contract: `contracts/Voting.sol` uses OpenZeppelin `Ownable`, `Pausable`, and `ReentrancyGuard`.
 
+<img width="1912" height="862" alt="WalletConnect" src="https://github.com/user-attachments/assets/dcbc97b9-e6dd-4f52-b8e2-88e53243bc73" />
+
+<img width="1911" height="868" alt="PollCreation " src="https://github.com/user-attachments/assets/63d39712-60bc-4858-96b8-e04234357a22" />
