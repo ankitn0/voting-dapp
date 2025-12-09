@@ -14,6 +14,7 @@ Time spent (estimate):
 - README, docs, and small fixes: 0.5 hours
 
 Challenges Faced
+
 a) Dependency & Version Conflicts
 
 There were several compatibility issues (ethers v5 vs v6, Hardhat toolbox, OpenZeppelin imports). Resolving these required aligning versions, adjusting import paths, and converting deployment methods (waitForDeployment() → deployed()).
