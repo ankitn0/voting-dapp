@@ -99,20 +99,29 @@ npm run dev
 - Add your testnet credentials and RPC URL to `hardhat.config.js` before deploying.
 - Contract: `contracts/Voting.sol` uses OpenZeppelin `Ownable`, `Pausable`, and `ReentrancyGuard`.
 
+#Screenshots
+WalletConnect
 <img width="1912" height="862" alt="WalletConnect" src="https://github.com/user-attachments/assets/dcbc97b9-e6dd-4f52-b8e2-88e53243bc73" />
 
+PollCreation
 <img width="1911" height="868" alt="PollCreation " src="https://github.com/user-attachments/assets/63d39712-60bc-4858-96b8-e04234357a22" />
 
+Voting
 <img width="1904" height="864" alt="Voting" src="https://github.com/user-attachments/assets/958dd38d-0734-4139-8db1-3a8946c1cb4a" />
 
+VotingWithDiffrentWallets
 <img width="1912" height="860" alt="VotingWithDiffrentWallets" src="https://github.com/user-attachments/assets/120a3f1a-45c2-4088-a144-2550c3f33773" />
 
+AfterVoting
 <img width="1903" height="863" alt="AfterVoting" src="https://github.com/user-attachments/assets/cb493068-fdaf-4cfc-be0a-1d4eab6aa1c7" />
 
+AlreadyVotedWarning
 <img width="1890" height="848" alt="AlreadyVotedWarning" src="https://github.com/user-attachments/assets/197b2bd7-1080-489b-bd34-1772d639df85" />
 
+AfterEndingPoll
 <img width="1916" height="852" alt="AfterEndingPoll" src="https://github.com/user-attachments/assets/88767240-45d3-4415-ac2f-1173c3d0f2aa" />
 
+Upto5Options
 <img width="1892" height="862" alt="Upto5option" src="https://github.com/user-attachments/assets/15eddfbf-64ad-489b-9e66-096ac5f6ab5f" />
 
 #Hardhat Tests
